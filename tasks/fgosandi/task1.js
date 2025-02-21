@@ -15,3 +15,5 @@ const triangle = (inputData) => {
 }
 
 triangle(5)
+
+module.exports = triangle

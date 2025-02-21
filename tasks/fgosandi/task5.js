@@ -9,3 +9,5 @@ const cetakTebal = (n) => {
 }
 
 cetakTebal(3)
+
+module.exports = cetakTebal

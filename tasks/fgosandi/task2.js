@@ -9,3 +9,5 @@ const countArray = (arr) => {
 
 countArray([1, 2, 3, 4, 5])
 countArray([2, 2, 2, 2, 2])
+
+module.exports = countArray

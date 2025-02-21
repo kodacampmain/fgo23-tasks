@@ -8,3 +8,5 @@ const buatRentang = (mulai, selesai) => {
 
 buatRentang(1, 5)
 buatRentang(5, 10)
+
+module.exports = buatRentang
