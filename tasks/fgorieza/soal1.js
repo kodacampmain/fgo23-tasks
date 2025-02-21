@@ -12,14 +12,14 @@ function triangleAs(n) {
   }
 }
 
-triangle("abc");
-console.log("\n");
-triangle(-1);
-console.log("\n");
-triangle(1);
-console.log("\n");
-triangle(2);
-console.log("\n");
-triangle(5);
+// triangle("abc");
+// console.log("\n");
+// triangle(-1);
+// console.log("\n");
+// triangle(1);
+// console.log("\n");
+// triangle(2);
+// console.log("\n");
+// triangle(5);
 
 module.exports = triangleAs();
