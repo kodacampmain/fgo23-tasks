@@ -1,4 +1,4 @@
-export function triangleDes(n) {
+function triangleDes(n) {
   if (typeof n == "string" || n < 0) {
     console.log("Parameter harus bertipe data nomor dan harus nomor positif");
   }
