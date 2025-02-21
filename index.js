@@ -54,11 +54,11 @@ const {triangle,
     processNumbers,
     cetakTabel,
     buatRentang
-} = require ("./tasks/fgoraissa/index")
+} = require ("./tasks/fgoraissa/index");
 
-triangle(5)
-countArray([1,2,3,4,5])
-segitiga(5)
-processNumbers([1,2,3])
-cetakTabel(5)
-buatRentang(1,5)
+triangle(5);
+countArray([1,2,3,4,5]);
+segitiga(5);
+processNumbers([1,2,3]);
+cetakTabel(5);
+buatRentang(1,5);
