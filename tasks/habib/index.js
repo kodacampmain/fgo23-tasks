@@ -23,10 +23,10 @@ const buatRentang = require("./src/task6");
 // buatRentang(5, 10);
 
 module.exports = {
-  triangle,
-  countArray,
-  prinstSegitiga,
-  countArrayOdd,
-  cetakTabel,
-  buatRentang,
+    triangle,
+    countArray,
+    prinstSegitiga,
+    countArrayOdd,
+    cetakTabel,
+    buatRentang,
 };
