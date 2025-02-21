@@ -1,21 +1,21 @@
 const triangle = (number) => {
-  if (number < 1) console.log('input should be positive number')
-  if (typeof number !== 'number') console.log('input should be an integer')
+    if (number < 1) console.log("input should be positive number");
+    if (typeof number !== "number") console.log("input should be an integer");
 
-  let col = ""
+    let col = "";
 
     for (let i = 1; i <= number; i++) {
-      let row = ""; 
+        let row = ""; 
 
-      for (let j = 1; j <= i; j++) {
-          row += j + " ";
-      }
+        for (let j = 1; j <= i; j++) {
+            row += j + " ";
+        }
 
-      col += row + "\n";
-  }
+        col += row + "\n";
+    }
 
-  return col
-}
+    return col;
+};
 
 // triangle('satu')
 // triangle(-1)
@@ -31,4 +31,4 @@ const triangle = (number) => {
 //   1 2 3 4 5
 // */
 
-module.exports = triangle
+module.exports = triangle;
