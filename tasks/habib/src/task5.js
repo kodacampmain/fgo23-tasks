@@ -1,4 +1,4 @@
-export function cetakTabel(n) {
+function cetakTabel(n) {
   if (typeof n !== "number") {
     console.log("parameter harus bertipe data nomor dan harus positif");
   }
@@ -11,3 +11,5 @@ export function cetakTabel(n) {
     console.log(`${n} X ${i} = ${n * i}`);
   }
 }
+
+module.exports = cetakTabel;

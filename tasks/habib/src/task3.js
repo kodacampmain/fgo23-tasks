@@ -1,4 +1,4 @@
-export function prinstSegitiga(n) {
+function prinstSegitiga(n) {
   if (typeof n !== "number") {
     console.log("Parameter harus bertipe");
   }
@@ -14,3 +14,4 @@ export function prinstSegitiga(n) {
     console.log(result);
   }
 }
+module.exports = prinstSegitiga;

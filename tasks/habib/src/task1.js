@@ -1,4 +1,4 @@
-export function triangle(n) {
+function triangle(n) {
   if (typeof n !== "number") {
     console.log("Parameter harus bertipe");
   }
@@ -14,4 +14,5 @@ export function triangle(n) {
     console.log(result);
   }
 }
-triangle(5);
+
+module.exports = triangle;
