@@ -1,15 +1,15 @@
-import triangle from './task1'
-import countArray from './task2'
-import triangleReverse from './task3'
-import processNumber from './task4'
-import cetakTebal from './task5'
-import buatRentang from './task6'
+const triangle = require("./task1");
+const countArray = require("./task2");
+const triangleReverse = require("./task3");
+const processNumber = require("./task4");
+const cetakTebal = require("./task5");
+const buatRentang = require("./task6");
 
-export {
-  triangle,
-  buatRentang,
-  cetakTebal,
-  countArray,
-  processNumber,
-  triangleReverse,
-}
+module.exports = {
+    triangle,
+    buatRentang,
+    cetakTebal,
+    countArray,
+    processNumber,
+    triangleReverse,
+};
