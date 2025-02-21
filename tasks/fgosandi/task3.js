@@ -6,8 +6,9 @@ const triangleReverse = (inputData) => {
   let result = ''
 
   for (let i = 1; i <= inputData; i++) {
-    for (let j = i; j <= inputData; j++) {
-      result += i
+    for (let j = i; j >= 1; j--) {
+      //   result += j
+      result += j
     }
     result += '\n'
   }
@@ -15,3 +16,5 @@ const triangleReverse = (inputData) => {
 }
 
 triangleReverse(5)
+
+module.exports = triangleReverse
