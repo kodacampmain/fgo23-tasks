@@ -6,10 +6,10 @@ const cetakTabel = require("./number5");
 const buatRentang = require("./number6");
 
 module.exports = {
-  triangle,
-  countArray,
-  triangle3,
-  proccessNumber,
-  cetakTabel,
-  buatRentang,
+    triangle,
+    countArray,
+    triangle3,
+    proccessNumber,
+    cetakTabel,
+    buatRentang,
 };
