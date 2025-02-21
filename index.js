@@ -1,7 +1,7 @@
 /**
  * Task Irul
  */
-const hakim = require("./tasks/mhakimsaputra");
+
 const irul = require("./tasks/irul");
 
 function tasksIrul() {
@@ -49,7 +49,7 @@ tasksIrul();
 /**
  * Task "mhakimsaputra"
  */
-
+const hakim = require("./tasks/mhakimsaputra");
 function tasksHakim() {
     hakim.triangle(5);
     hakim.countArray([1, 2, 3, 4, 5]);
