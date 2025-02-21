@@ -19,4 +19,4 @@ triangle(1);
 triangle(2);
 triangle(5);
 
-module.exports = triangle;
+module.exports = {triangle};

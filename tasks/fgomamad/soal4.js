@@ -1,4 +1,4 @@
-export function processNumbers(arr) {
+function processNumbers(arr) {
   if (!Array.isArray(arr) || arr.some((num) => typeof num !== "number")) {
     console.log("Parameter harus berupa array of integer");
     return;
@@ -13,4 +13,4 @@ export function processNumbers(arr) {
 processNumbers([1, 2, 3, 4, 5]);
 processNumbers([2, 4, 6, 8]);
 
-module.exports = processNumbers;
+module.exports = {processNumbers};

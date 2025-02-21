@@ -1,4 +1,4 @@
-export function cetakTabel(n) {
+function cetakTabel(n) {
   if (typeof n !== "number" || n <= 0) {
     console.log("Parameter harus bertipe data nomor dan harus nomor positif");
     return;
@@ -13,4 +13,4 @@ cetakTabel("abc");
 cetakTabel(-1);
 cetakTabel(3);
 
-module.exports = cetakTabel;
+module.exports = {cetakTabel};

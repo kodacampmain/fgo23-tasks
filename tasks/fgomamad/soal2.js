@@ -1,4 +1,4 @@
-export function countArray(arr) {
+function countArray(arr) {
   if (!Array.isArray(arr) || arr.some((num) => typeof num !== "number")) {
     console.log("Parameter harus berupa array of integer");
     return;
@@ -11,4 +11,4 @@ export function countArray(arr) {
 countArray([1, 2, 3, 4, 5]);
 countArray([2, 2, 2, 2, 2]);
 
-module.exports = countArray;
+module.exports = {countArray};
