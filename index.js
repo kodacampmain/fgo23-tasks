@@ -3,7 +3,6 @@
  */
 
 const irul = require("./tasks/irul");
-const denis = require("./tasks/devbydenis/index.js");
 
 function tasksIrul() {
     // Program: Sum Number
@@ -50,6 +49,7 @@ tasksIrul();
 /**
  * Task Denis
  */
+const denis = require("./tasks/devbydenis/index.js");
 
 function taskDenis() {
     console.log(denis.nomorSatu(5));
