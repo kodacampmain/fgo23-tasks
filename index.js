@@ -65,12 +65,15 @@ const {
 } = require("./tasks/fgorieza/index.js");
 
 function rieza() {
-  triangleAs()
-  countArray()
-  triangleDes()
-  processNumber()
-  cetakTabel()
-  buatRentang()
+  triangle("abc");
+  console.log("\n");
+  triangle(-1);
+  console.log("\n");
+  triangle(1);
+  console.log("\n");
+  triangle(2);
+  console.log("\n");
+  triangle(5);
 }
 
 rieza()
