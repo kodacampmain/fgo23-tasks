@@ -13,14 +13,14 @@ function triangleDes(n) {
     console.log(result);
 }
 
-// triangle("abc");
+// triangleDes("abc");
 // console.log("\n");
-// triangle(-1);
+// triangleDes(-1);
 // console.log("\n");
-// triangle(1);
+// triangleDes(1);
 // console.log("\n");
-// triangle(2);
+// triangleDes(2);
 // console.log("\n");
-// triangle(5);
+// triangleDes(5);
 
 module.exports = triangleDes();
