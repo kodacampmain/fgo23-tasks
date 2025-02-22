@@ -4,6 +4,7 @@ const cetakTabel = (num) => {
         const result = num * i;
         console.log(`${num} x ${i} = ${result}`);
     } 
+    return;
 };
 
 module.exports = {
