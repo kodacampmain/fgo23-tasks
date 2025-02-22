@@ -32,9 +32,7 @@ function tasksIrul(){
     // Program: Convert Celcius to Fahrenheit
     // Success
     const temperatureResult = irul.celciusToFahrenheit(10);
-    console.log(
-        `the temperature ${temperatureResult.celcius}°C is ${temperatureResult.fahrenheit}°F`
-    );
+    console.log(`the temperature ${temperatureResult.celcius}°C is ${temperatureResult.fahrenheit}°F`);
 
     // Failed
     try{
