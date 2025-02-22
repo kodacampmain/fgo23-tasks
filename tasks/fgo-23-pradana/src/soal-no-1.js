@@ -1,4 +1,4 @@
-export function triangle(input) {
+function triangle(input) {
   if (typeof input !== "number" || input <= 0)
     return console.log(
       "Parameter harus bertipe data nomor dan harus nomor positif"
@@ -11,3 +11,5 @@ export function triangle(input) {
     console.log(result);
   }
 }
+
+module.exports = { triangle };

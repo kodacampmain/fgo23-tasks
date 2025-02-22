@@ -1,4 +1,4 @@
-export function cetakTabel(input) {
+function cetakTabel(input) {
   if (typeof input !== "number" || input < 0)
     return console.log(
       "Parameter harus bertipe data nomor dan harus nomor positif"
@@ -7,3 +7,5 @@ export function cetakTabel(input) {
     console.log(`${input} x ${i} = ${input * i}`);
   }
 }
+
+module.exports = { cetakTabel };
