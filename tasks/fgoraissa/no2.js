@@ -5,6 +5,7 @@ const countArray = (arrNum) => {
     }
     const result = arrNum.reduce((num, length) => num * length, 1);
     console.log(result);
+    return;
 };
 
 module.exports = {
