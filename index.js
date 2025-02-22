@@ -45,32 +45,33 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task "Person Name"
- */
-
-// import your tasks here
-/**
  * Task Rieza Eka Tomara
  */
 
 // import your tasks here
 
-const {
-    triangleAs,
-    countArray,
-    triangleDes,
-    processNumber,
-    cetakTabel,
-    buatRentang,
-} = require("./tasks/fgorieza/index.js");
+const rieza = require("./tasks/fgorieza/index.js");
 
-function rieza() {
-  triangleAs()
-  countArray()
-  triangleDes()
-  processNumber()
-  cetakTabel()
-  buatRentang()
+function taskRieza() {
+    console.log(rieza.triangleAs("abc"));
+    console.log(rieza.triangleAs(-1));
+    console.log(rieza.triangleAs(1));
+    console.log(rieza.triangleAs(2));
+    console.log(rieza.triangleAs(5));
+    console.log(rieza.countArray([1, 2, 3, 4, 5]));
+    console.log(rieza.countArray([2, 2, 2, 2, 2]));
+    console.log(rieza.triangleDes("abc"));
+    console.log(rieza.triangleDes(-1));
+    console.log(rieza.triangleDes(1));
+    console.log(rieza.triangleDes(2));
+    console.log(rieza.triangleDes(5));
+    console.log(rieza.processNumber([1, 2, 3, 4, 5]));
+    console.log(rieza.processNumber([2, 4 , 6, 8]));
+    console.log(rieza.cetakTabel("abc"));
+    console.log(rieza.cetakTabel(-1));
+    console.log(rieza.cetakTabel(3));
+    console.log(rieza.buatRentang(1, 5));
+    console.log(rieza.buatRentang(5, 10));
 }
 
-rieza()
+tasksRieza();
