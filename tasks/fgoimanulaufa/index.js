@@ -5,11 +5,10 @@ const processNumber = require("./task4.js");
 const cetakTabel = require("./task5.js");
 const buatRentang = require("./task6.js");
 
-module.exports = {
+module.exports = 
     triangle,
-    countArray,
-    triangleReverse,
-    processNumber,
-    cetakTabel,
-    buatRentang,
-};
+countArray,
+triangleReverse,
+processNumber,
+cetakTabel,
+buatRentang;
