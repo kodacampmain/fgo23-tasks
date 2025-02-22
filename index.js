@@ -42,23 +42,17 @@ function tasksIrul(){
         console.log(error.message);
     }
 }
-tasksIrul();
+// tasksIrul();
 
 /**
  * Task Raissa
  */
 
-const {triangle,
-    countArray,
-    segitiga,
-    processNumbers,
-    cetakTabel,
-    buatRentang
-} = require ("./tasks/fgoraissa/index");
+const {compileMinitask} = require ("./tasks/fgoraissa/index");
 
-triangle(5);
-countArray([1,2,3,4,5]);
-segitiga(5);
-processNumbers([1,2,3]);
-cetakTabel(5);
-buatRentang(1,5);
+let num = 5;
+let arrNum = [1,2,3,4,5];
+let start = 1;
+let end = 10;
+compileMinitask(num,arrNum,start,end);
+
