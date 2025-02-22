@@ -1,23 +1,15 @@
-const triangleAs = require("./soal1");
+const triangleAs = require("./soal1.js");
+const countArray = require("./soal2.js");
+const triangleDes = require("./soal3.js");
+const processNumber = require("./soal4.js");
+const cetakTabel = require("./soal5.js");
+const buatRentang = require("./soal6.js");
 
-module.exports = { triangleAs };
-
-const countArray = require("./soal1");
-
-module.exports = { countArray };
-
-const triangleDes = require("./soal1");
-
-module.exports = { triangleDes };
-
-const processNumber = require("./soal1");
-
-module.exports = { processNumber };
-
-const cetakTabel = require("./soal1");
-
-module.exports = { cetakTabel };
-
-const buatRentang = require("./soal1");
-
-module.exports = { buatRentang };
+module.exports = {
+    triangleAs,
+    countArray,
+    triangleDes,
+    processNumber,
+    cetakTabel,
+    buatRentang,
+};

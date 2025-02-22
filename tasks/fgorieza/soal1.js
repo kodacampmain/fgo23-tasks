@@ -7,19 +7,19 @@ function triangleAs(n) {
             for (let j = 1; j <= i; j++) {
                 baris.push(i);
             }
-            console.log(baris.join(" "));
+            console.log (baris.join(" "));
         }
     }
 }
 
-// triangle("abc");
+// triangleAs("abc");
 // console.log("\n");
-// triangle(-1);
+// triangleAs(-1);
 // console.log("\n");
-// triangle(1);
+// triangleAs(1);
 // console.log("\n");
-// triangle(2);
+// triangleAs(2);
 // console.log("\n");
-// triangle(5);
+// triangleAs(5);
 
 module.exports = triangleAs();
