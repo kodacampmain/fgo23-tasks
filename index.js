@@ -42,7 +42,7 @@ function tasksIrul(){
         console.log(error.message);
     }
 }
-tasksIrul();
+// tasksIrul();
 
 /**
  * Task Raissa
