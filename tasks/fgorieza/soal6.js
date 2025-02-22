@@ -11,7 +11,7 @@ function buatRentang(mulai, selesai) {
     console.log(hasil.join(", "));
 }
 
-buatRentang(1, 5);
-buatRentang(5, 10);
+// buatRentang(1, 5);
+// buatRentang(5, 10);
 
 module.exports = buatRentang();

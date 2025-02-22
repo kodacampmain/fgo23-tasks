@@ -12,8 +12,8 @@ function cetakTabel(n) {
   return hasil.join("\n");
 }
 
-console.log(cetakTabel("abc"));
-console.log(cetakTabel(-1));
-console.log(cetakTabel(3));
+// console.log(cetakTabel("abc"));
+// console.log(cetakTabel(-1));
+// console.log(cetakTabel(3));
 
 module.exports = cetakTabel();
