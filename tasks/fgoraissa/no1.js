@@ -4,8 +4,10 @@ const triangle = (num) => {
         let string = "";
         for (i=1; i<=row; i++) {
             string += i;
-        } console.log(string);
+        } 
+        console.log(string);
     } 
+    return;
 };
 
 module.exports = {
