@@ -45,7 +45,7 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task Rieza Eka Tomara
+ * Task Rieza
  */
 
 // import your tasks here
