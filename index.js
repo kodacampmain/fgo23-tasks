@@ -49,25 +49,19 @@ tasksIrul();
  */
 
 // import your tasks here
-const {
-  buatRentang,
-  cetakTebal,
-  countArray,
-  processNumber,
-  triangle,
-  triangleReverse,
-} = require("./tasks/fgosandi/index")
+const sandi = require("./tasks/fgosandi/index")
 
-triangle(5)
 
-countArray([1, 2, 3, 4, 5])
-countArray([2, 2, 2, 2, 2])
+sandi.triangle(5)
 
-triangleReverse(5)
+sandi.countArray([1, 2, 3, 4, 5])
+sandi.countArray([2, 2, 2, 2, 2])
 
-processNumber([1, 2, 3, 4, 5])
+sandi.triangleReverse(5)
 
-cetakTebal(3)
+sandi.processNumber([1, 2, 3, 4, 5])
 
-buatRentang(1, 5)
-buatRentang(5, 10)
+sandi.cetakTebal(3)
+
+sandi.buatRentang(1, 5)
+sandi.buatRentang(5, 10)
