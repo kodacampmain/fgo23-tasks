@@ -32,7 +32,9 @@ function tasksIrul(){
     // Program: Convert Celcius to Fahrenheit
     // Success
     const temperatureResult = irul.celciusToFahrenheit(10);
-    console.log(`the temperature ${temperatureResult.celcius}°C is ${temperatureResult.fahrenheit}°F`);
+    console.log(
+        `the temperature ${temperatureResult.celcius}°C is ${temperatureResult.fahrenheit}°F`
+    );
 
     // Failed
     try{
@@ -50,14 +52,12 @@ tasksIrul();
 
 // import your tasks here
 
-const {
-    triangle,
-    countArray,
-    triangleReverse,
-    processNumber,
-    cetakTabel,
-    buatRentang,
-} = require("./tasks/fgoimanulaufa/index.js");
+const triangle = require("./tasks/fgoimanulaufa/index.js");
+const countArray = require("./tasks/fgoimanulaufa/index.js");
+const triangleReverse = require("./tasks/fgoimanulaufa/index.js");
+const processNumber = require("./tasks/fgoimanulaufa/index.js");
+const cetakTabel = require("./tasks/fgoimanulaufa/index.js");
+const buatRentang = require("./tasks/fgoimanulaufa/index.js");
 
 triangle(8);
 console.log("\n");
@@ -74,4 +74,4 @@ console.log("\n");
 cetakTabel(2);
 console.log("\n");
 
-buatRentang(2, 5);
+buatRentang(2,5);
