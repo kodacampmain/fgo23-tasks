@@ -42,10 +42,14 @@ function tasksIrul(){
         console.log(error.message);
     }
 }
-tasksIrul();
+// tasksIrul();
 
 /**
- * Task "Person Name"
+ * Task Raissa
  */
 
-// import your tasks here
+const {compileMinitask} = require ("./tasks/fgoraissa/index");
+
+
+compileMinitask(num,arrNum,start,end);
+
