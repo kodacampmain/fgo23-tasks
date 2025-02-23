@@ -50,9 +50,6 @@ function tasksIrul(){
 
 const {compileMinitask} = require ("./tasks/fgoraissa/index");
 
-let num = 5;
-let arrNum = [1,2,3,4,5];
-let start = 1;
-let end = 10;
+
 compileMinitask(num,arrNum,start,end);
 

@@ -14,6 +14,11 @@ const compileMinitask = (num,arrNum,start,end) => {
     buatRentang(start, end);
 };
 
+num = 5;
+arrNum = [1,2,3,4,5];
+start = 1;
+end = 10;
+
 module.exports = {
     compileMinitask,
 };
