@@ -45,7 +45,26 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task "Person Name"
+ * Task "Imanul Aufa"
  */
 
 // import your tasks here
+
+const iman = require("./tasks/fgoimanulaufa/index.js");
+
+iman.triangle(8);
+console.log("\n");
+
+console.log("2", iman.countArray([1, 2, 3, 4]));
+console.log("\n");
+
+iman.triangleReverse(8);
+console.log("\n");
+
+console.log(iman.processNumber([1, 2, 3, 4, 5, 5, 7]));
+console.log("\n");
+
+iman.cetakTabel(2);
+console.log("\n");
+
+iman.buatRentang(2, 5);
