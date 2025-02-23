@@ -17,6 +17,6 @@ const processNumber = (arr) => {
     return total;
 };
 
-// console.log(processNumber([1, 2, 3, 4, 5, 5, 7]));
+// console.log(processNumber([1, 2, 3, 4, 5, 5]));
 
 module.exports = processNumber;
