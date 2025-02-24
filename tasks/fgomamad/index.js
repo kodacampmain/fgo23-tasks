@@ -36,4 +36,4 @@ function outputTask(){
     
 }
 
-module.exports = { outputTask }
+module.exports = { outputTask };
