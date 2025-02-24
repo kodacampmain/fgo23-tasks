@@ -14,7 +14,7 @@ function tasksIrul(){
     try{
         const result = irul.sumNumber("10",30);
         console.log(result);
-    }catch (error){
+    }catch(error){
         console.log(error.message);
     }
     // Program: Multiply Number
@@ -26,7 +26,7 @@ function tasksIrul(){
     try{
         const result = irul.multiplyNumbers("10",30);
         console.log(result);
-    }catch (error){
+    }catch(error){
         console.log(error.message);
     }
     // Program: Convert Celcius to Fahrenheit
@@ -38,7 +38,7 @@ function tasksIrul(){
     try{
         const result = irul.celciusToFahrenheit("10",30);
         console.log(result);
-    }catch (error){
+    }catch(error){
         console.log(error.message);
     }
 }
