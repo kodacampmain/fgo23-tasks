@@ -45,7 +45,38 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task "Person Name"
+ * Task Rohman
  */
 
 // import your tasks here
+
+const rohman = require("./tasks/fgorohman");
+
+function tasksRohman() {
+    const resultTriangle = rohman.triangle(5);
+    console.log(resultTriangle);
+
+    const resultHasilPerkaliam = rohman.hasilPerkalian([1, 2, 3, 4, 5]);
+    console.log(resultHasilPerkaliam);
+
+    const resultTriangle2 = rohman.triangle2(5);
+    console.log(resultTriangle2);
+
+    const resultNumber = rohman.number([1, 2, 3, 4, 5]);
+    console.log(resultNumber);
+
+    const resultAngka = rohman.angka(9);
+    console.log(resultAngka);
+}
+
+tasksRohman();
+
+// console.log(triangle.(5));
+// console.log("\n");
+// hasilPerkalian([1, 2, 3, 4, 5]);
+// hasilPerkalian([2, 2, 2, 2, 2]);
+// console.log("\n");
+// triangle2(5);
+// // number([1, 2, 3, 4, 5]);
+// angka(9);
+// buatRentang(1, 10);
