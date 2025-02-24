@@ -4,17 +4,17 @@
 
 const irul = require("./tasks/irul");
 
-function tasksIrul() {
+function tasksIrul(){
     // Program: Sum Number
     // Success
     const resultSum = irul.sumNumber(10, 50);
     console.log(resultSum);
 
     // Failed
-    try {
+    try{
         const result = irul.sumNumber("10", 30);
         console.log(result);
-    } catch (error) {
+    }catch (error){
         console.log(error.message);
     }
     // Program: Multiply Number
@@ -23,10 +23,10 @@ function tasksIrul() {
     console.log(resultMultiply);
 
     // Failed
-    try {
+    try{
         const result = irul.multiplyNumbers("10", 30);
         console.log(result);
-    } catch (error) {
+    }catch (error){
         console.log(error.message);
     }
     // Program: Convert Celcius to Fahrenheit
@@ -37,10 +37,10 @@ function tasksIrul() {
     );
 
     // Failed
-    try {
+    try{
         const result = irul.celciusToFahrenheit("10", 30);
         console.log(result);
-    } catch (error) {
+    }catch (error){
         console.log(error.message);
     }
 }
