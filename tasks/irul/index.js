@@ -6,4 +6,3 @@ module.exports = {
     multiplyNumbers: calc.multiplyNumbers,
     celciusToFahrenheit: temperature.celciusToFahrenheit
 };
-
