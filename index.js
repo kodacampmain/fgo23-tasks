@@ -50,6 +50,6 @@ tasksIrul();
 
 // import your tasks here
 
-const { outputTask } = require("./tasks/fgomamad/index.js");
+const outputTask  = require("./tasks/fgomamad/index.js");
 
 outputTask();
