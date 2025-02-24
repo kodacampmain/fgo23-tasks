@@ -45,7 +45,19 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task "Person Name"
+ * Task Hakim
  */
 
 // import your tasks here
+
+const hakim = require("./tasks/mhakimsaputra");
+function tasksHakim() {
+    hakim.triangle(5);
+    hakim.countArray([1, 2, 3, 4, 5]);
+    hakim.triangle3(5);
+    hakim.proccessNumber([1, 2, 3, 4, 5]);
+    hakim.cetakTabel(3);
+    hakim.buatRentang(1, 10);
+}
+
+tasksHakim();
