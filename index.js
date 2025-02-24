@@ -7,14 +7,14 @@ const irul = require("./tasks/irul");
 function tasksIrul(){
     // Program: Sum Number
     // Success
-    const resultSum = irul.sumNumber(10, 50);
+    const resultSum = irul.sumNumber(10,50);
     console.log(resultSum);
 
     // Failed
     try{
         const result = irul.sumNumber("10",30);
         console.log(result);
-    } catch (error) {
+    }catch(error) {
         console.log(error.message);
     }
     // Program: Multiply Number
