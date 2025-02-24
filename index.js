@@ -79,3 +79,24 @@ function taskDenis() {
 }
 
 taskDenis();
+
+/**
+ * Task Sandi
+ */
+
+const sandi = require("./tasks/fgosandi/index")
+
+
+sandi.triangle(5)
+
+sandi.countArray([1, 2, 3, 4, 5])
+sandi.countArray([2, 2, 2, 2, 2])
+
+sandi.triangleReverse(5)
+
+sandi.processNumber([1, 2, 3, 4, 5])
+
+sandi.cetakTebal(3)
+
+sandi.buatRentang(1, 5)
+sandi.buatRentang(5, 10)
