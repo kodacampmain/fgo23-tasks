@@ -49,3 +49,28 @@ tasksIrul();
  */
 
 // import your tasks here
+/**
+ * Task "Habib Muhammad Rizki"
+ */
+const tasksHabib = require("./tasks/habib/index.js");
+
+// Soal no 1
+tasksHabib.triangle(5);
+
+// Soal no 2
+tasksHabib.countArray([1, 2, 3, 4, 5]);
+tasksHabib.countArray([2, 2, 2, 2, 2]);
+
+// Soal no 3
+tasksHabib.prinstSegitiga(5);
+
+// Soal no 4
+tasksHabib.countArrayOdd([1, 2, 3, 4, 5]);
+tasksHabib.countArrayOdd([2, 4, 6, 8]);
+// Soal no 5
+tasksHabib.cetakTabel(3);
+// Soal no 6
+tasksHabib.buatRentang(1, 5);
+tasksHabib.buatRentang(5, 10);
+
+// import your tasks here
