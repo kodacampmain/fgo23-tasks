@@ -45,7 +45,26 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task "Person Name"
+ * Task "yasir"
  */
 
 // import your tasks here
+
+const {
+    triangle,
+    countArray,
+    triangleRev,
+    processNumber,
+    printTable,
+    makeRange
+} = require("./tasks/fgoyasir");
+
+function yasirCall() {
+    console.log(triangle(5));
+    console.log(countArray([1, 2, 3, 4, 5]));
+    console.log(triangleRev(5));
+    console.log(processNumber([1, 2, 3, 4, 5]));
+    printTable(3);
+    console.log(makeRange(1, 5));
+}
+yasirCall()
