@@ -44,6 +44,7 @@ function tasksIrul(){
 }
 tasksIrul();
 
+
 /**
  * Task Hakim
  */
@@ -61,3 +62,20 @@ function tasksHakim() {
 }
 
 tasksHakim();
+
+/**
+ * Task Denis
+ */
+
+const denis = require("./tasks/devbydenis/index.js");
+
+function taskDenis() {
+    console.log(denis.nomorSatu(5));
+    console.log(denis.nomorDua([1, 2, 3, 4, 5]));
+    console.log(denis.nomorTiga(1));
+    console.log(denis.nomorEmpat([1, 2, 3, 4, 5]));
+    console.log(denis.nomorLima(1));
+    console.log(denis.nomorEnam(1, 5));
+}
+
+taskDenis();
