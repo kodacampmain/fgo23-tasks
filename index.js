@@ -50,33 +50,28 @@ tasksIrul();
 
 // import your tasks here
 
+console.log("\n");
 const rohman = require("./tasks/fgorohman");
 
 function tasksRohman() {
     const resultTriangle = rohman.triangle(5);
-    console.log(resultTriangle);
+    console.log(`${resultTriangle}`);
 
-    const resultHasilPerkaliam = rohman.hasilPerkalian([1, 2, 3, 4, 5]);
-    console.log(resultHasilPerkaliam);
+    const resultHasilPerkalian = rohman.hasilPerkalian([1, 2, 3, 4, 5]);
+    console.log(`${resultHasilPerkalian} \n`);
 
     const resultTriangle2 = rohman.triangle2(5);
-    console.log(resultTriangle2);
+    console.log(`${resultTriangle2} \n`); // console.log(resultTriangle2);
 
     const resultNumber = rohman.number([1, 2, 3, 4, 5]);
-    console.log(resultNumber);
+    console.log(`${resultNumber} \n`); // console.log(resultNumber);
 
-    const resultAngka = rohman.angka(9);
-    console.log(resultAngka);
+    const resultAngka = rohman.angka(10);
+    console.log(`${resultAngka} \n`); // console.log(resultAngka);
+
+    const resultBuatRentang = rohman.buatRentang(1,10);
+    console.log(`${resultBuatRentang}`);
+
 }
 
 tasksRohman();
-
-// console.log(triangle.(5));
-// console.log("\n");
-// hasilPerkalian([1, 2, 3, 4, 5]);
-// hasilPerkalian([2, 2, 2, 2, 2]);
-// console.log("\n");
-// triangle2(5);
-// // number([1, 2, 3, 4, 5]);
-// angka(9);
-// buatRentang(1, 10);
