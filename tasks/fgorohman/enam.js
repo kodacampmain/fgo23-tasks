@@ -1,5 +1,8 @@
-const buatRentang = (mulai, akhir) => {};
+const buatRentang = (mulai, akhir) => {
+    for (let i = mulai; i <= akhir; i++) {
+        console.log(i);
+    }
+};
 
-// buatRentang(1, 10);
 
 module.exports = buatRentang;
